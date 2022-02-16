@@ -1,5 +1,6 @@
 body {
-  background: black;
+  background: #9a5353;
+  color:white;
 }
 header {
   text-align: center;
@@ -10,5 +11,8 @@ nav {
   align-items: center;
 }
 a {
-  background: red;
+  background: #b00000;
+  padding:8px;
+  margin:8px;
+  border-radius:10px;
 }
