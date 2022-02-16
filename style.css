@@ -1,6 +1,14 @@
-body{
-  background: red
+body {
+  background: black;
 }
-header{
+header {
   text-align: center;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a {
+  background: red;
 }
