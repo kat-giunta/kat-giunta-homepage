@@ -1,9 +1,8 @@
 body {
   background: #f40000;
-  color: white;
+  color:white;
 }
-header,
-footer {
+header,footer {
   text-align: center;
 }
 nav {
@@ -11,19 +10,17 @@ nav {
   flex-direction: column;
   align-items: center;
 }
-
 a {
   background: #b00000;
-  padding: 8px;
-  margin: 20px;
-  border-radius: 20px;
-  box-shadow: ;
-  webkit-box-shadow: 5px 5px 15px 5px #000000;
-  box-shadow: 5px 5px 15px 5px #000000;
+  padding:8px;
+  margin:20px;
+  border-radius:20px;
+  box-shadow: -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
   color: #eacfcf;
-  text-decoration: none;
+  text-decoration:none;
+  
 }
-}
+
 a:hover {
-  color: #198cff;
-}
+  color: #198CFF;
