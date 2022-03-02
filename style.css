@@ -1,8 +1,9 @@
 body {
   background: #f40000;
-  color:white;
+  color: white;
 }
-header,footer {
+header,
+footer {
   text-align: center;
 }
 nav {
@@ -12,17 +13,21 @@ nav {
 }
 a {
   background: #b00000;
-  padding:8px;
-  margin:20px;
-  border-radius:20px;
-  box-shadow: ;webkit-box-shadow: 5px 5px 15px 5px #000000; 
-box-shadow: 5px 5px 15px 5px #000000;
+  padding: 8px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: ;
+  webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
   color: #eacfcf;
-  text-decoration:none; }
-  
-  @font-face {
-  font-family: 'Style Script';
-  src: url('../https://fonts.google.com/specimen/Style+Script?query=script#standard-styles') format('truetype');
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Style Script";
+  src: url("../https://fonts.google.com/specimen/Style+Script?query=script#standard-styles")
+    format("truetype");
 }
 a:hover {
-  color: #198CFF; }
+  color: #198cff;
+}
