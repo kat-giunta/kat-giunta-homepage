@@ -1,9 +1,12 @@
 body {
-  background: #f40000;
-  color:white;
+  background: #3f2540;
+  color:#fdd5d5;
+  font-family: 'Style Script', cursive;
+  font-size: 22px;
 }
 header,footer {
   text-align: center;
+  
 }
 nav {
   display: flex;
@@ -15,12 +18,26 @@ a {
   padding:8px;
   margin:20px;
   border-radius:20px;
-  box-shadow: -webkit-box-shadow: 5px 5px 15px 5px #000000; 
-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000; 
   color: #eacfcf;
   text-decoration:none;
-  
+  transition: all 0.6s ease;
+    }
+
+a:focus {
+  outline: none;
 }
 
-a:hover {
-  color: #198CFF;
+a:hover,
+a:focus {
+  background: #6d84d7;
+  color: #000000;
+}
+
+#copyright {
+   text-align: center;
+  font-size: .6rem;
+  color: #ffffff;
+  font-weight: bold;
+font-style: italic;
+}
